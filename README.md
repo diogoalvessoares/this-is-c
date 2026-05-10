@@ -1,5 +1,5 @@
 *Latest README update in 10/05/2026 23:28 PT*
-> # This is C
+# **This is C**
 ![alt text](static/image.png)
 
 > ### **Introduction**
@@ -60,9 +60,46 @@ First digit: File organization (goes 1 up every refactor on the organization sta
 Second digit: Chapter created (goes 1 up every new chapter);
 Third digit: Small changes (goes 1 up every added code).
 ```
+
+> ### **How to use the repository**
+
+The main file "this_is_so_c.c" will have the source of all of what this repository is all about.
+
+You will see the file's header. You can also see a progress bar of the project conclusion immediately bellow it:
+
+![alt text](image-1.png)
+
+The file features an introduction, which you can jump.
+
+Then, you will see an index.
+
+![alt text](image-2.png)
+
+Everything is organized by **section title**, **line** (in which that section starts), **level** (indicates if the code is potato level or TRANSCENDENTAL level), and the **latest update** (when it was added and the latest change). Here's an example:
+
+![alt text](image-3.png)
+
+The line number will show on the blank space. All you need to do is jump into that line. So... if you want to see **Odd or Even number**, you will go to that line and ...
+
+![alt text](image-4.png)
+
+... BOOOOOM, you have the code! :3
+
+And ... that's it!
+
 > ### **Help?**
 I mean... ok!
 
 E-mail: aalsosmurf@gmail.com
 
 (use it wisely.......)
+
+(if you have any ideas you can also ... just ... leave it there!)
+
+(why is it so difficult to end a readme file ..)
+
+(...)
+
+(WHY ARE YOU STILL READING THIS)
+
+(ok bye)
