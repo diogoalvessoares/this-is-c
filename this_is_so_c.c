@@ -3,6 +3,7 @@
 /*
 + ~ >>>                                                          <<< ~ +
 ________________________________________________________________________
+|                                                                      |
 |                                TOOL BOX                              |
 |                     RANDOM CODES FOR C PROGRAMMING                   |
 |                  !!! ONLY USING THE STDIO LIBRARY !!!                |
@@ -65,48 +66,46 @@ INDEX                                         | LINE | LEVEL   | LATEST UPDATE
 
 VOLUME A ::: EXPOSED CODING
 
-[1]: CHECKERS    ____________________________
+[1]: CHECKERS    ____________________________ 114
 
-[1.1] - Odd or Even number................... |      | POTATO  | 30/04/2026
+[1.1] - Odd or Even number................... | 123   | POTATO  | 30/04/2026
 [1.2] - Between a specific range of numbers
-[1.2.1] - Inclusive.......................... |      | POTATO  | 30/04/2026
-[1.2.2] - Exclusive.......................... |      | POTATO  | 30/04/2026
-[1.3] - Input type........................... |      | EASY    | 30/04/2026
-[1.4] - Boolean for specific value........... |      | POTATO  | 30/04/2026
-[1.5] - Vowels............................... |      | EASY    | 04/05/2026
+[1.2.1] - Inclusive.......................... | 149   | POTATO  | 30/04/2026
+[1.2.2] - Exclusive.......................... | 187   | POTATO  | 30/04/2026
+[1.3] - Input type........................... | 224   | EASY    | 30/04/2026
+[1.4] - Boolean for specific value........... | 262   | POTATO  | 30/04/2026
+[1.5] - Vowels............................... | 187   | EASY    | 04/05/2026
 
-[2]: MATHEMATICS    _________________________
+[2]: MATHEMATICS    _________________________ 313
 
 [2.1] - Math Basics
-[2.1.1] - Simple Properties (+, -, x, :)..... |      | POTATO  | 01/05/2026
-[2.1.2] - Factorial.......................... |      | EASY    | 02/05/2026
-[2.1.3] - Exponent........................... |      | EASY    | 02/05/2026
-[2.1.4] - Square Root........................ |      | EASY    | 04/05/2026
-[2.1.5] - Second Degree Equations............ |      | EASY    | 04/05/2026
+[2.1.1] - Simple Properties (+, -, x, :)..... | 330   | POTATO  | 01/05/2026
+[2.1.2] - Factorial.......................... | 361   | EASY    | 02/05/2026
+[2.1.3] - Exponent........................... | 390   | EASY    | 02/05/2026
+[2.1.4] - Square Root........................ | 420   | EASY    | 04/05/2026
+[2.1.5] - Second Degree Equations............ | 442   | EASY    | 04/05/2026
 [2.2] - Areas, Perimeters and Volumes
-[2.2.1] - Square and Cube.................... |      | EASY    | 02/05/2026
-[2.2.2] - Circle and Sphere.................. |      | EASY    | 02/05/2026
-[2.2.3] - Triangle and Pyramid............... |      | EASY    | 02/05/2026
-
-[3]: DRAWINGS    ____________________________
-
-[3.1] - With infill
-[3.1.1] - Square............................. |
-[3.1.2] - Trapezium.......................... |
-[3.1.3] - Right Triangle..................... |
-[3.1.4] - Rectangle.......................... |
-[3.1.5] - Circle............................. |
-[3.1.6] - Star............................... |
-[3.1.7] - Diamond............................ |
-[3.1] - Without infill
-[3.1.1] - Square............................. |
-[3.1.2] - Trapezium.......................... |
-[3.1.3] - Right Triangle..................... |
-[3.1.4] - Rectangle.......................... |
-[3.1.5] - Circle............................. |
-[3.1.6] - Star............................... |
-[3.1.7] - Diamond............................ |
+[2.2.1] - Square and Cube.................... | 479   | EASY    | 02/05/2026
+[2.2.2] - Circle and Sphere.................. | 501   | EASY    | 02/05/2026
+[2.2.3] - Triangle and Pyramid............... | 523   | EASY    | 02/05/2026
 */
+
+/*
+________________________________________________________________________
+|                                                                      |
+|                        :::   VOLUME A   :::                          |
+|                           EXPOSED CODING                             |
+|                                                                      |
+|______________________________________________________________________|
+
+*/
+
+
+// The exposed coding volume is related to simple coding that is very
+// little and does not have any protection in the way that it may not
+// punish the user if he inserts a character when the code expects an
+// integer, for example. They do not have any kind of clauses or any
+// kind of exceptions: they are straight to the point.
 
 
 /*
@@ -123,12 +122,15 @@ user input.
 
 // [1.1] - Odd or Even number
 
+// This code determines if an inserted value is
+// an odd or an even number.
+
 
 /*
 int main(){
     int value = 0;
 
-    printf("--Odd or Even number checker--\n");
+    printf("-- Odd or Even | Checkers --\n");
     printf("Insert an integer number: ");
 
     scanf("%d", &value);
@@ -147,6 +149,7 @@ int main(){
 // [1.2] - Between a specific range of numbers
 
 // [1.2.1] - Exclusive
+
 // This code excludes the selected range values, only 
 // accepting the values in between them.
 //
@@ -163,7 +166,7 @@ int main(){
     int highest_value = 10;  // CUSTOMIZABLE
     int lowest_value = 2;    // CUSTOMIZABLE
 
-    printf("--Between range number checker--\n");
+    printf("-- Exclusive Range Number | Checkers/Exclusive --\n");
     printf("Insert an integer number: ");
 
     scanf("%d", &value);
@@ -200,7 +203,7 @@ int main(){
     int highest_value = 10;  // CUSTOMIZABLE
     int lowest_value = 2;    // CUSTOMIZABLE
 
-    printf("--Between range number checker--\n");
+    printf("-- Inclusive Range Number | Checkers/Inclusive --\n");
     printf("Insert an integer number: ");
 
     scanf("%d", &value);
@@ -230,7 +233,7 @@ void main() {
     char whatever[100];
     int dot, letter, i;
 
-    printf("--Input Type Checker--\n");
+    printf("-- Input Type | Checkers --\n");
     printf("Insert something: ");
 
     scanf("%s", whatever);
@@ -267,7 +270,7 @@ void main(){
     int value;
     int specific_value = 2;  // CUSTOMIZABLE
 
-    printf("--Boolean Checker--");
+    printf("-- Boolean | Checkers --");
     printf("Insert '2'. If anything else is inserted, False is returned: ");
 
     scanf("%s", &value);
@@ -291,7 +294,7 @@ void main(){
 void main() {
     char c;
 
-    printf("-- Character | Checkers --\n");
+    printf("-- Vowel | Checkers --\n");
     printf("Enter a character: ");
     scanf(" %c", &c);
     
@@ -321,10 +324,14 @@ to probabilities and statistics.
 
 // [2.1] - Math Basics
 
-// -
+// This subsection a compilation of the basics of mathematics.
 
 
 // [2.1.1] - Simple Properties (+, -, x, :)
+
+// This code reads two values inserted by the user and
+// does the adition, subtraction, multiplication and
+// division operations.
 
 
 /*
@@ -332,7 +339,7 @@ void main(){
     float value1, value2;
     float result1, result2, result3, result4;
 
-    printf("-- Simple Properties | Mathematics --\n");
+    printf("-- Simple Properties | Mathematics/Math Basics --\n");
     printf("Insert an integer/decimal number: ");
     scanf("%f", &value1);
     printf("Insert another integer/decimal number: ");
@@ -353,6 +360,9 @@ void main(){
 
 // [2.1.2] - Factorial
 
+// This code successfully determines the factorial of a
+// inserted value of the user.
+
 
 /*
 void main(){
@@ -360,7 +370,7 @@ void main(){
     int value;
     int fact = 1;
 
-    printf("-- Factorial | Mathematics --\n");
+    printf("-- Factorial | Mathematics/Math Basics --\n");
     printf("Insert an integer, smaller than 20, to know its factorial: ");
 
     scanf("%d", &value);
@@ -379,6 +389,7 @@ void main(){
 
 // [2.1.3] - Exponent
 
+// This code determines the 
 
 /*
 #include <stdio.h>
@@ -388,7 +399,7 @@ void main(){
     double result = 1.0;
     int i;
 
-    printf("-- Exponent | Mathematics --\n");
+    printf("-- Exponent | Mathematics/Math Basics --\n");
     printf("Insert an integer for the base number: ");
     scanf("%d", &value1);
     printf("Insert the exponent number: ");
@@ -413,6 +424,7 @@ void main(){
 void main() {
     double value, x;
     
+    printf("-- Square Root | Mathematics/Math Basics --\n");
     printf("Number: ");
     scanf("%lf", &value);
     
@@ -434,7 +446,7 @@ void main() {
 void main(){
     double a, b, c, x1, x2, discriminant, squared;
     
-    printf("-- Second Degree | Mathematics --\n");
+    printf("-- Second Degree | Mathematics/Math Basics --\n");
     printf("a= ");
     scanf("%lf", &a);
     printf("b= ");
@@ -460,14 +472,19 @@ void main(){
 
 // [2.2] - Areas, Perimeters and Volumes
 
+// Calculating areas, perimeters and volumes are very
+// important concepts of mathematics.
+
+
 // [2.2.1] - Square and Cube
 
+// Calculate the square area and the cube volume.
 
 /*
 void main(){
     int side, area, volume;
 
-    printf("-- Square and Cube | Mathematics --\n");
+    printf("-- Square and Cube | Mathematics/Areas, Perimeters and Volumes --\n");
     printf("Insert the side of the square: ");
 
     scanf("%d", &side);
@@ -483,12 +500,13 @@ void main(){
 
 // [2.2.2] - Circle and Sphere
 
+// Calculate the circle area and the sphere volume.
 
 /*
 void main(){
     double radius, area, volume;
 
-    printf("-- Circle and Sphere | Mathematics --\n");
+    printf("-- Circle and Sphere | Mathematics/Areas, Perimeters and Volumes --\n");
     printf("Insert the radius: ");
 
     scanf("%lf", &radius);
@@ -504,6 +522,7 @@ void main(){
 
 // [2.2.3] - Triangle and Pyramid
 
+// Calculate the triangle area and the pyramid volume.
 // This is valid for any triangle.
 
 
@@ -511,7 +530,7 @@ void main(){
 void main(){
     double base, height, area, volume;
 
-    printf("-- Triangle and Pyramid | Mathematics --\n");
+    printf("-- Triangle and Pyramid | Mathematics/Areas, Perimeters and Volumes --\n");
 
     printf("Insert the base side length: ");
     scanf("%lf", &base);
@@ -529,120 +548,5 @@ void main(){
 
 
 /*
-________________________________________________________________________
-|                                                                      |
-|                        CHAPTER [3]: DRAWINGS                         |
-|______________________________________________________________________|
-
-- Drawings are probably considered the most important ways to learn
-about arrays, array lists and dictionaries.
-- There are several teachers or tutors that focus on making this a
-project for a course or an exam question.
-- If the purpose is to use this and make a project, use it for the
-LEARNING PURPOSE only! :)
-
-*/
-
-
-// [3.1] - With Infill
-
-// [3.1.1] - Square
-
-// For an input value, it prints a square-like shape terminal output.
-// Here's an example:
-
-// INPUT:
-// 3
-// OUTPUT:
-// X X X
-// X X X
-// X X X
-
-// INPUT:
-// 5
-// OUTPUT:
-// X X X X X
-// X X X X X
-// X X X X X
-// X X X X X
-// X X X X X
-
-
-/*
-void main() {
-    int value;
-    
-    printf("Enter a number: ");
-    scanf("%d", &value);
-    
-    for(int i = 0; i < value; i++) {
-        for(int j = 0; j < value; j++) {
-            printf("X ");
-        }
-    printf("\n");
-    }
-}
-*/
-
-
-// [3.1.2] - Trapezium
-
-
-// For an input value, it prints a trapezium-like shape terminal output.
-// The input is the trapezium's height.
-// Here's an example:
-
-// INPUT:
-// 3
-// OUTPUT:
-// X X 
-// X X X 
-// X X X X
-
-// INPUT:
-// 5
-// OUTPUT:
-// X X X 
-// X X X X 
-// X X X X X 
-// X X X X X X 
-// X X X X X X X 
-
-
-
-void main() {
-    int n, start;
-    
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    
-    start = n/2 + 1;
-
-    for(int i = 0; i < n; i++) {
-        for(int j = 0; j < start + i; j++) {
-            printf("X ");
-        }
-    printf("\n");
-    }
-}
-
-
-
-// [3.1.3] - Right Triangle
-
-
-/*
-void main() {
-    int n;
-    
-    printf("Enter base length: ");
-    scanf("%d", &n);
-    
-    for(int i = 1; i <= n; i++) {
-        for(int j = 0; j < i; j++) {
-            printf("X ");
-        }
-        printf("\n");
-    }
-}
+Developed and maintained by Diogo.
 */
