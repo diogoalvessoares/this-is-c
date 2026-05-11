@@ -1,4 +1,7 @@
 *Latest README update in 10/05/2026 23:28 PT*
+
+Version 1.0.1
+
 # **This is C**
 ![alt text](static/image.png)
 
@@ -67,21 +70,21 @@ The main file "this_is_so_c.c" will have the source of all of what this reposito
 
 You will see the file's header. You can also see a progress bar of the project conclusion immediately bellow it:
 
-![alt text](image-1.png)
+![alt text](static/image-1.png)
 
 The file features an introduction, which you can jump.
 
 Then, you will see an index.
 
-![alt text](image-2.png)
+![alt text](static/image-2.png)
 
 Everything is organized by **section title**, **line** (in which that section starts), **level** (indicates if the code is potato level or TRANSCENDENTAL level), and the **latest update** (when it was added and the latest change). Here's an example:
 
-![alt text](image-3.png)
+![alt text](static/image-3.png)
 
 The line number will show on the blank space. All you need to do is jump into that line. So... if you want to see **Odd or Even number**, you will go to that line and ...
 
-![alt text](image-4.png)
+![alt text](static/image-4.png)
 
 ... BOOOOOM, you have the code! :3
 
