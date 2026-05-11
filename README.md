@@ -1,4 +1,7 @@
 *Latest README update in 10/05/2026 23:28 PT*
+
+Version 1.0.1
+
 # **This is C**
 ![alt text](static/image.png)
 
